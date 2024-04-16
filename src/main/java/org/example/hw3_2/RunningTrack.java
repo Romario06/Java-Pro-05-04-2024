@@ -1,7 +1,7 @@
 package org.example.hw3_2;
 
 public class RunningTrack  implements Obstacle {
-    int length;
+    private int length;
 
     public RunningTrack(int length) {
         this.length = length;

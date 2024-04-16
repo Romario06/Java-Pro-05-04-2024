@@ -1,7 +1,7 @@
 package org.example.hw3_2;
 
 public class Wall implements Obstacle {
-    int height;
+    private int height;
 
     public Wall(int height) {
         this.height = height;
