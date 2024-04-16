@@ -15,18 +15,18 @@ public class Cat implements Participant {
     @Override
     public void run(int distance) {
         if (distance <= maxRunDistance) {
-            System.out.println(name + " пробіг " + distance + " м.");
+            System.out.println("Кіт " + name + " пробіг " + distance + " м.");
         } else {
-            System.out.println(name + " не зміг пробігти " + distance + " м.");
+            System.out.println("Кіт " + name + " не зміг пробігти " + distance + " м.");
         }
     }
 
     @Override
     public void jump(int height) {
         if (height <= maxJumpHeight) {
-            System.out.println(name + " стрибнув на висоту " + height + " м.");
+            System.out.println("Кіт " + name + " стрибнув на висоту " + height + " м.");
         } else {
-            System.out.println(name + " не зміг стрибнути на висоту " + height + " м.");
+            System.out.println("Кіт " + name + " не зміг стрибнути на висоту " + height + " м.");
         }
     }
 }

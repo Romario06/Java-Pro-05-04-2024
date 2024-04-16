@@ -6,9 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Participant human = new Human("Людина", 100, 2);
-        Participant cat = new Cat("Кіт", 50, 1);
-        Participant robot = new Robot("Робот", 200, 5);
+        Participant human = new Human("Петро", 100, 2);
+        Participant cat = new Cat("Генри", 50, 1);
+        Participant robot = new Robot("R2D2", 200, 5);
 
 
         // Creation of obstacles

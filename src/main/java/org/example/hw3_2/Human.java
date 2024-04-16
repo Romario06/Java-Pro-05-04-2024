@@ -1,7 +1,7 @@
 package org.example.hw3_2;
 
 public class Human implements Participant {
-   private String name;
+    private String name;
     private int maxRunDistance;
     private int maxJumpHeight;
 
