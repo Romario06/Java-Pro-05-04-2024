@@ -7,8 +7,9 @@ public class Main {
     public static void main(String[] args) {
 
         Participant human = new Human("Людина", 100, 2);
-        Participant cat = new Human("Кіт", 50, 1);
-        Participant robot = new Human("Робот", 200, 5);
+        Participant cat = new Cat("Кіт", 50, 1);
+        Participant robot = new Robot("Робот", 200, 5);
+
 
         // Creation of obstacles
         ArrayList<Obstacle> obstacles = new ArrayList<>();
