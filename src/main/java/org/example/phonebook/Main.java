@@ -15,7 +15,7 @@ public class Main {
         phoneBook.addRecord("Джим Керрі", "00459876543210");
         phoneBook.addRecord("Джим Керрі", "98765345610");
 
-        phoneBook.findAndPrint("Джим Керрі");
+        phoneBook.findAndPrint("Джеймс Вудс");
         phoneBook.findAndPrintAll("Джим Керрі");
     }
 }
